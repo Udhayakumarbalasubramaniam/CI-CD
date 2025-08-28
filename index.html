@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic AI</title>
+  <style>
+    /* Reset & Fonts */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      background: linear-gradient(90deg, #38bdf8, #9333ea, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    .hero {
+      max-width: 800px;
+      padding: 2rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      animation: fadeInUp 2s ease;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #f1f5f9;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(90deg, #38bdf8, #9333ea);
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 4px 15px rgba(147, 51, 234, 0.4);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agentic AI</h1>
+    <p>Empowering autonomous intelligence for the future</p>
+  </header>
+
+  <section class="hero">
+    <h2>Redefining AI with Autonomy</h2>
+    <p>
+      Agentic AI represents the next evolution in artificial intelligence —
+      where systems don’t just respond, but <b>act with purpose</b>.  
+      By combining reasoning, planning, and adaptability, Agentic AI unlocks
+      breakthroughs in automation, creativity, and decision-making.
+    </p>
+    <button class="btn">Explore More</button>
+  </section>
+
+  <footer>
+    © 2025 Agentic AI | Built with ❤️ for innovation
+  </footer>
+</body>
+</html>
